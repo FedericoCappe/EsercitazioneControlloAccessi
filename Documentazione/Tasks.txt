@@ -1,0 +1,16 @@
+-Creazione entità-relazioni in diagramma
+-Crezione mock-up front end
+-creazione schema database
+-inserimento a db dei dati di esempio
+-verifica coerenza front-end / database
+-definizione degli end point api
+	-path 
+	-verbo
+	-body
+	-respose
+	
+-un task per pagina
+-task per controller
+-creazione risorse su azure
+-creazione pipeline ci/cd
+-creazione pipeline release
