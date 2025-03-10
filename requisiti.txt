@@ -1,0 +1,14 @@
+1)i dipendenti devono riuscire a registrare un ospite 
+2)dato un ospite devono poter pianificare una visita nello stabilimento
+	-data e ora inizio
+	-nome e cognome ospite 
+	-dipendente accompagnatore
+	-accesso wifi true/false
+	-parcheggio true/false
+	(il numero di posti auto è limitato)
+3)devo vedere gli ospiti previsti per un certo giorno e quelli effettivamente presenti in stabilimento
+4)devo poter segnare che un ospite è arrivato potendo aggiungere il numero di badge che ha ricevuto
+5)devo poter segnare che un ospite ha terminato la visita
+6)come dipendente devo poter cancellare o modificare una richiesta di visita
+7)devo poter richiedere l'accesso wifi anche a visita già iniziata
+8)come responsabile sicurezza devo poter vedere quali ospiti hanno accesso al wifi
