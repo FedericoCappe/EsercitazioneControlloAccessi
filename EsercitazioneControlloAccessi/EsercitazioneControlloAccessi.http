@@ -1,0 +1,6 @@
+@EsercitazioneControlloAccessi_HostAddress = http://localhost:5149
+
+GET {{EsercitazioneControlloAccessi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
