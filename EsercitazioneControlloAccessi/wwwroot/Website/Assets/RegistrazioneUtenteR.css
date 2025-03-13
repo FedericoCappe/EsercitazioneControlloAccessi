@@ -1,0 +1,16 @@
+
+body {
+    display: flex;
+    justify-content: center;   /* Centra orizzontalmente */
+    align-items: center;       /* Centra verticalmente */
+    height: 100vh;             /* Imposta l'altezza del body al 100% della finestra */
+    margin: 0;                 /* Rimuovi margini predefiniti del body */
+}
+
+.main 
+{
+    padding: 20px;
+    border: 1px solid black;
+    background-color: lightblue;
+    font-size: 20px;
+}
