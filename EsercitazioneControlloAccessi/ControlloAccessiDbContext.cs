@@ -13,7 +13,7 @@ namespace EsercitazioneControlloAccessi
 
             public DbSet<Dipendente> Dipendenti { get; set; }
             public DbSet<Ruolo> Ruoli { get; set; }
-            public DbSet<Azienda> Aziende { get; set; }
+            public DbSet<AziendaOspite> Aziende { get; set; }
 
             public DbSet<Visita> Visite { get; set; }
 

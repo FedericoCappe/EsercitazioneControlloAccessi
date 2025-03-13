@@ -10,9 +10,7 @@ namespace EsercitazioneControlloAccessi.Entities
         public int RuoloId { get; set; }
         [ForeignKey(nameof(RuoloId))]
         public Ruolo? Ruolo { get; set; }
-        public List<Visita>? Visite { get; set; }
-        public int AziendaId { get; set; }
-        [ForeignKey(nameof(AziendaId))]
-        public Azienda? Azienda { get; set; }
+        public List<Visita>? VisiteAccompagnate { get; set; }
+        public List<Prenotazione>? VisitePrenotate { get; set; }
     }
 }

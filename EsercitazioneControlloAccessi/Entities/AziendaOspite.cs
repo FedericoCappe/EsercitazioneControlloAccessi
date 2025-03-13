@@ -1,9 +1,9 @@
 ﻿namespace EsercitazioneControlloAccessi.Entities
 {
-    public class Azienda
+    public class AziendaOspite
     {
         public int Id { get; set; }
         public required string Nome { get; set; }
-        public List<Dipendente>? Dipendenti { get; set; }
+        public List<Ospite>? Ospiti { get; set; }
     }
 }
