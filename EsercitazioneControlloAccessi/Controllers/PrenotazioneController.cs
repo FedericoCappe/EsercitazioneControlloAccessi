@@ -7,27 +7,25 @@ namespace EsercitazioneControlloAccessi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class VisiteController : ControllerBase
+    public class PrenotazioneController : ControllerBase
     {
         private readonly ControlloAccessiDbContext _ctx;
         private readonly Mapper _mapper;
 
-        public VisiteController(ControlloAccessiDbContext ctx, Mapper mapper)
+        public PrenotazioneController(ControlloAccessiDbContext ctx, Mapper mapper)
         {
             _ctx = ctx;
             _mapper = mapper;
         }
 
         [HttpPost]
-        public IActionResult NuovaVisita([FromBody] Visita visita)
+        public IActionResult NuovaVisita([FromBody] Prenotazione prenotazione)
         {
             try
             {
-                if(visita == null)
+                if (prenotazione == null)
                     return BadRequest();
-                if(string.IsNullOrWhiteSpace(visita.Descrizione))
-                    return BadRequest();
-                _ctx.Visite.Add(visita);
+                _ctx.Prenotazioni.Add(prenotazione);
                 _ctx.SaveChanges();
                 return Created();
             }
