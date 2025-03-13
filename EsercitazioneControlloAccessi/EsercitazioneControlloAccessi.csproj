@@ -11,9 +11,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-    <Folder Include="DATA\" />
-    <Folder Include="DTO\" />
+	<Folder Include="Entities\" />
+	<Folder Include="Controllers\" />
+	<Folder Include="DTO\" />
   </ItemGroup>
 
 </Project>
