@@ -7,6 +7,8 @@ namespace EsercitazioneControlloAccessi.Entities
     {
         public int Id { get; set; }
         public required string Nome { get; set; }
+       
+        public required string Username { get; set; }
         public required string Cognome { get; set; }
         [MinLength(10)]
         public required string Password { get; set; } 

@@ -20,5 +20,7 @@ namespace EsercitazioneControlloAccessi
         public DbSet<Wifi> Wifi { get; set; }
         public DbSet<PostoAuto> PostiAuto { get; set; }
         public DbSet<Ospite> Ospiti { get; set; }
+
+
     }
 }

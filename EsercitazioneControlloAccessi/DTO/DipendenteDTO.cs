@@ -10,6 +10,7 @@ namespace EsercitazioneControlloAccessi.DTO
 
 
         public int Id { get; set; }
+        public string Username { get; set; }
         public required string Nome { get; set; }
         public required string Cognome { get; set; }
         [MinLength(10)]
