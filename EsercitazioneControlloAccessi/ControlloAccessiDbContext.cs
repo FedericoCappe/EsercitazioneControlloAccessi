@@ -4,6 +4,8 @@ namespace EsercitazioneControlloAccessi
 {
     public class ControlloAccessiDbContext : DbContext
     {
+
+
         public ControlloAccessiDbContext() : base() { }
 
         public ControlloAccessiDbContext(DbContextOptions<ControlloAccessiDbContext> options)
